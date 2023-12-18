@@ -1,2 +1,2 @@
 # Datascience
-This is the material covered in the Speingboard Data Science bootcamp.
+This is the material covered in the Springboard Data Science bootcamp.
