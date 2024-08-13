@@ -12,7 +12,7 @@ In this Repo I explored the three separate files available: protein, peptide abu
 We combined the protein and peptide abundance files together to make a new file and also saved the cleaned clinical dataset. 
 
 # 3. EDA
-
+Look at code [here] (https://github.com/mt98/Datascience/blob/d30e1c0678a6273b561258b61cf1cee4f8af92be/Second_capstone/Capstone_two_2-EDA.ipynb)
 We log2 transformed the protein NPX values and the peptide abundance values so they have a normal distribution.
 <img width="329" alt="Screen Shot 2024-08-11 at 8 02 06 PM" src="https://github.com/user-attachments/assets/4d10cbc4-a78d-45cf-a472-d94370100056">
 
@@ -23,6 +23,8 @@ We wanted to reduce the number of protein and peptide abundance values which cou
 
 
 # 4. Preprocessing
+Look at code [here](
+
 We split the dataset 80 to 20 into training and testing dataset. We had to encode the features . The protein and peptide abundances which are continuous features were scaled, while up23db_clinical_state on medication which was a categorical variable was one hot encoded. We used the Boruta method for feature selection for each of the UPDRS scores. Boruta works by creating shadow features of the actual features and tests whether the features perform better than these random shadow features. 
 The selected features for each of the UPDRS scores were chosen for the modeling steps.
 
