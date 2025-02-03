@@ -15,8 +15,7 @@
 | Validation  |  8 |8|
 
 A few images for Chest X-ray images were visualised after resizing.
-
-![training_xray](https://github.com/user-attachments/assets/68e6851a-e759-4948-a120-d474c06ed158)
+<img width="1312" alt="Screen Shot 2025-02-03 at 1 08 58 PM" src="https://github.com/user-attachments/assets/ec99fb96-6993-4d05-bfd8-6b69387ea5f4" />
 
 ## 3. Pre-processing and model building
 We conducted pre-processing and built a model to predict the image classification using neural networks. [Github](https://github.com/mt98/Datascience/blob/909652b2e188b0f202ac1fe77ec48488f532d253/Capstone_three/Pre-processing_modeling.ipynb)
